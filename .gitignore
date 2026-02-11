@@ -1,0 +1,11 @@
+# Build outputs
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+
+# IDE
+.vs/
+*.user
+*.suo

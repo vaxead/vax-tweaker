@@ -1,0 +1,52 @@
+VAX TWEAKER — PROPRIETARY SOFTWARE LICENSE
+==========================================
+
+Copyright (c) 2025 Vaxead. All rights reserved.
+
+This software and its associated documentation ("Software") are the
+exclusive property of Vaxead. The Software is protected by copyright
+laws and international treaties.
+
+GRANT OF LICENSE
+You are granted a limited, non-exclusive, non-transferable license to
+use the Software for personal, non-commercial purposes on systems you
+own or are authorized to modify.
+
+RESTRICTIONS
+You may NOT:
+  1. Copy, modify, merge, or create derivative works of the Software.
+  2. Reverse engineer, decompile, or disassemble the Software.
+  3. Distribute, sublicense, sell, rent, or lease the Software.
+  4. Remove or alter any proprietary notices or labels on the Software.
+  5. Use the Software for any commercial purpose without a valid
+     commercial license obtained from the copyright holder.
+
+DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+LIMITATION OF LIABILITY
+IN NO EVENT SHALL VAXEAD BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES ARISING FROM
+THE USE OF OR INABILITY TO USE THE SOFTWARE.
+
+SYSTEM MODIFICATION DISCLAIMER
+===============================
+
+This software modifies Windows Registry values, system services, power
+configurations, and file system contents. While every effort has been made
+to ensure safety (including automatic backup, restore points, and
+confirmation prompts), the author:
+
+1. Makes NO guarantees that any modification will improve system performance.
+2. Is NOT responsible for any system instability, data loss, hardware
+   damage, or any other consequence resulting from the use of this software.
+3. STRONGLY recommends creating a System Restore Point before applying
+   any tweaks (the software offers this at startup).
+4. STRONGLY recommends running the software only on systems you own and
+   are authorized to modify.
+
+USE THIS SOFTWARE ENTIRELY AT YOUR OWN RISK.
+
+For commercial licensing inquiries, contact: https://github.com/vaxead
