@@ -19,8 +19,6 @@ Designed for gamers, power users, and IT professionals who demand peak performan
 <br>
 <br>
 
-[📥 Download Latest Release](https://github.com/vaxead/vax-tweaker/releases) · [📋 Changelog](#changelog) · [🛡️ Safety](#safety--restore) · [❓ FAQ](#faq)
-
 </div>
 
 ---
