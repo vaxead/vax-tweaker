@@ -85,7 +85,7 @@ VAX TWEAKER is engineered with safety as the top priority:
 
 ## 🚀 Quick Start
 
-1. **Download** `VaxTweaker.exe` from [Releases](https://github.com/vaxead/vax-tweaker/releases)
+1. **Download** `VaxTweaker.exe` from [Gumroad]((https://vaxead.gumroad.com/l/vax-tweaker))
 2. **Right-click → Run as Administrator** for full functionality
 3. **Accept the disclaimer** (shown only on first launch)
 4. **Create a System Restore Point** when prompted
