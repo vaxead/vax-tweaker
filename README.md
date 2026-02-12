@@ -4,7 +4,7 @@
 
 ### Ultimate Windows System Optimizer
 
-[![Version](https://img.shields.io/badge/version-1.0.0-00d4aa?style=for-the-badge)](https://github.com/vaxead/vax-tweaker/releases)
+[![Version](https://img.shields.io/badge/version-2.0.0-00d4aa?style=for-the-badge)](https://github.com/vaxead/vax-tweaker/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078d4?style=for-the-badge&logo=windows)](https://github.com/vaxead/vax-tweaker)
 [![Architecture](https://img.shields.io/badge/arch-x64-333333?style=for-the-badge)](https://github.com/vaxead/vax-tweaker)
 [![License](https://img.shields.io/badge/license-Proprietary-ff4444?style=for-the-badge)](LICENSE)
@@ -42,12 +42,12 @@ Unlike bloated "optimizer" software, VAX TWEAKER:
 | # | Module | Description |
 |---|--------|-------------|
 | ⚡ | **FPS & Rendering** | Fullscreen optimizations, GPU scheduling, visual effects, Game Bar, DWM tuning, power plans |
-| 🔒 | **Privacy & Telemetry** | 34 tweaks across telemetry, Cortana, Copilot, Recall, activity tracking, device permissions |
+| 🔒 | **Privacy & Telemetry** | 62 tweaks across telemetry, Cortana, Copilot, Recall, activity tracking, device permissions, third-party telemetry |
 | 🎮 | **Gaming Performance** | CPU priority, system timers, HPET, MMCSS, service optimization, memory management |
 | 🌐 | **Network Optimization** | Nagle's algorithm, TCP tuning, DNS configuration, NIC adapter settings, latency reduction |
-| 🧹 | **Windows Debloater** | Remove bloatware, disable widgets, tips, suggestions, pre-installed apps |
+| 🧹 | **Windows Debloater** | Remove bloatware, disable widgets, tips, suggestions, pre-installed apps, Windows Update controls, Insider/experiments |
 | 🧽 | **System Cleaner** | 25 cleaning targets — temp files, caches, logs, crash dumps, browser data, Steam cache |
-| 🛡️ | **Security Hardening** | Disable RDP, SMBv1, admin shares, harden UAC, disable PowerShell v2 engine |
+| 🛡️ | **Security Hardening** | Disable RDP, SMBv1, admin shares, harden UAC, disable PowerShell v2 engine, browser security policies |
 | 📊 | **System Analysis** | Full hardware/software diagnostic scan with GPU, driver, runtime, and network details |
 | 🚀 | **Startup Manager** | Enumerate, inspect, enable/disable startup programs across HKCU and HKLM |
 
@@ -151,6 +151,14 @@ VAX TWEAKER is proprietary software. The source code is not publicly available. 
 ---
 
 ## 📋 Changelog
+
+### v2.0.0 — Major Update
+- **276 total tweaks** across 9 modules (+30 new tweaks)
+- **Privacy**: 62 tweaks — new Extended Telemetry Controls, Sensor & Location, Third-Party Telemetry (NVIDIA, VS, Edge, Office)
+- **Privacy**: Full ConsentStore coverage — Videos, Email, Tasks, Messaging, Broad Filesystem, Motion Data
+- **Debloater**: 31 tweaks — new Windows Update Controls, Insider/Experiments, Compatibility & Diagnostics groups
+- **Security**: 13 tweaks — new Browser Security group (Edge hardening, Chrome Reporter, Firefox Agent)
+- All new tweaks are fully reversible with data-driven apply/revert/status detection
 
 ### v1.0.0 — Initial Release
 - 9 optimization modules with 100+ tweaks
