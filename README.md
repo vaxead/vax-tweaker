@@ -37,19 +37,22 @@ Unlike bloated "optimizer" software, VAX TWEAKER:
 
 ---
 
-## 📦 Modules
+## 📦 Modules — 276 Tweaks
 
-| # | Module | Description |
-|---|--------|-------------|
-| ⚡ | **FPS & Rendering** | Fullscreen optimizations, GPU scheduling, visual effects, Game Bar, DWM tuning, power plans |
-| 🔒 | **Privacy & Telemetry** | 62 tweaks across telemetry, Cortana, Copilot, Recall, activity tracking, device permissions, third-party telemetry |
-| 🎮 | **Gaming Performance** | CPU priority, system timers, HPET, MMCSS, service optimization, memory management |
-| 🌐 | **Network Optimization** | Nagle's algorithm, TCP tuning, DNS configuration, NIC adapter settings, latency reduction |
-| 🧹 | **Windows Debloater** | Remove bloatware, disable widgets, tips, suggestions, pre-installed apps, Windows Update controls, Insider/experiments |
-| 🧽 | **System Cleaner** | 25 cleaning targets — temp files, caches, logs, crash dumps, browser data, Steam cache |
-| 🛡️ | **Security Hardening** | Disable RDP, SMBv1, admin shares, harden UAC, disable PowerShell v2 engine, browser security policies |
-| 📊 | **System Analysis** | Full hardware/software diagnostic scan with GPU, driver, runtime, and network details |
-| 🚀 | **Startup Manager** | Enumerate, inspect, enable/disable startup programs across HKCU and HKLM |
+| # | Module | Tweaks | Description |
+|---|--------|:------:|-------------|
+| ⚡ | **FPS & Rendering** | 39 | Fullscreen optimizations, GPU scheduling, visual effects, Game Bar/DVR, DWM compositor, MPO, transparency, power plans |
+| 🎮 | **Gaming Performance** | 32 | CPU priority, system timers, HPET/TSC, MMCSS, timer resolution, third-party service disabling, memory management |
+| 🖥️ | **NVIDIA Inspector** | 9 | GPU driver-level optimizations — shader cache, power management, threaded optimization, texture filtering, CUDA |
+| 🌐 | **Network Optimization** | 35 | Nagle's algorithm, TCP tuning, DNS config, NIC adapter, timestamps, heuristics, ECN, window scaling, NetBIOS |
+| 🔒 | **Privacy & Telemetry** | 62 | 10 groups — telemetry, Cortana/Copilot/Recall, activity sync, device permissions, app data access, sensors, NVIDIA/VS/Edge/Office telemetry |
+| 🛡️ | **Security Hardening** | 13 | RDP, SMBv1, admin shares, UAC, WDigest, AutoRun, PowerShell v2, Edge/Chrome/Firefox browser security policies |
+| 🧹 | **Windows Debloater** | 31 | 7 groups — taskbar UI, Start tips, UWP removal, scheduled tasks, Windows Update controls, Insider/experiments, compatibility |
+| 🧽 | **System Cleaner** | 33 | Temp files, prefetch, thumbnails, browser caches (Chrome/Edge/Firefox), Steam, NVIDIA/AMD, Office, Teams, Discord, DNS flush |
+| ⚙️ | **Service Manager** | 18 | Disable unnecessary Windows services — Xbox, Maps, Retail Demo, Contact Data, diagnostics services |
+| 📊 | **System Analysis** | — | Full hardware/software diagnostic scan — CPU, GPU, RAM, drivers, runtimes, network adapters, OS build |
+| 📈 | **System Monitor** | — | Real-time CPU, RAM, and disk usage monitoring with live-updating console dashboard |
+| 🎯 | **Game Profiles** | — | Save and load per-game optimization profiles — apply/revert tweak sets with one click |
 
 ---
 
@@ -84,7 +87,7 @@ VAX TWEAKER is engineered with safety as the top priority:
 
 ## 🚀 Quick Start
 
-1. **Download** `VaxTweaker.exe` from [https://vaxead.gumroad.com/l/vax-tweaker]
+1. **Download** `VaxTweaker.exe` from [Releases](https://github.com/vaxead/vax-tweaker/releases)
 2. **Right-click → Run as Administrator** for full functionality
 3. **Accept the disclaimer** (shown only on first launch)
 4. **Create a System Restore Point** when prompted
@@ -153,21 +156,26 @@ VAX TWEAKER is proprietary software. The source code is not publicly available. 
 ## 📋 Changelog
 
 ### v2.0.0 — Major Update
-- **276 total tweaks** across 9 modules (+30 new tweaks)
-- **Privacy**: 62 tweaks — new Extended Telemetry Controls, Sensor & Location, Third-Party Telemetry (NVIDIA, VS, Edge, Office)
+- **276 total tweaks** across **12 modules** (+30 new tweaks, +3 new modules)
+- **Privacy**: 62 tweaks in 10 groups — new Extended Telemetry Controls, Sensor & Location, Third-Party Telemetry (NVIDIA, VS, Edge, Office)
 - **Privacy**: Full ConsentStore coverage — Videos, Email, Tasks, Messaging, Broad Filesystem, Motion Data
-- **Debloater**: 31 tweaks — new Windows Update Controls, Insider/Experiments, Compatibility & Diagnostics groups
-- **Security**: 13 tweaks — new Browser Security group (Edge hardening, Chrome Reporter, Firefox Agent)
-- All new tweaks are fully reversible with data-driven apply/revert/status detection
+- **Debloater**: 31 tweaks in 7 groups — new Windows Update Controls, Insider/Experiments, Compatibility & Diagnostics
+- **Security**: 13 tweaks in 3 groups — new Browser Security group (Edge hardening, Chrome Reporter, Firefox Agent)
+- **New module**: NVIDIA Inspector — 9 GPU driver-level tweaks via registry
+- **New module**: Service Manager — 18 toggleable Windows services
+- **New module**: System Monitor — real-time CPU/RAM/Disk dashboard
+- **New module**: Game Profiles — per-game tweak presets
+- **Machine-bound licensing** — HWID + DPAPI + Gumroad uses counter (1 key = 1 device)
+- All tweaks fully reversible with data-driven apply/revert/status detection
 
 ### v1.0.0 — Initial Release
-- 9 optimization modules with 100+ tweaks
+- 9 optimization modules with 200+ tweaks
 - Automatic registry backup with CRC32 integrity verification
 - System Restore Point integration
 - Compatibility engine with laptop/Modern Standby detection
-- Startup Manager with enable/disable toggle
-- System Cleaner with 25 cleaning targets
+- System Cleaner with 33 cleaning targets
 - Security Hardening module
+- Full System Analysis diagnostic scanner
 
 ---
 
