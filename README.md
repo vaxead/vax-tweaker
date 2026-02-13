@@ -4,7 +4,7 @@
 
 ### Ultimate Windows System Optimizer
 
-[![Version](https://img.shields.io/badge/version-2.0.0-00d4aa?style=for-the-badge)](https://github.com/vaxead/vax-tweaker/releases)
+[![Version](https://img.shields.io/badge/version-2.1.0-00d4aa?style=for-the-badge)](https://github.com/vaxead/vax-tweaker/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078d4?style=for-the-badge&logo=windows)](https://github.com/vaxead/vax-tweaker)
 [![Architecture](https://img.shields.io/badge/arch-x64-333333?style=for-the-badge)](https://github.com/vaxead/vax-tweaker)
 [![License](https://img.shields.io/badge/license-Proprietary-ff4444?style=for-the-badge)](LICENSE)
@@ -35,12 +35,12 @@ Unlike bloated "optimizer" software, VAX TWEAKER:
 
 ---
 
-## 📦 Modules — 276 Tweaks
+## 📦 Modules — 280+ Tweaks
 
 | # | Module | Tweaks | Description |
 |---|--------|:------:|-------------|
 | ⚡ | **FPS & Rendering** | 39 | Fullscreen optimizations, GPU scheduling, visual effects, Game Bar/DVR, DWM compositor, MPO, transparency, power plans |
-| 🎮 | **Gaming Performance** | 32 | CPU priority, system timers, HPET/TSC, MMCSS, timer resolution, third-party service disabling, memory management |
+| 🎮 | **Gaming Performance** | 35 | CPU priority, system timers, HPET/TSC/Platform Tick, MMCSS, network throttling, prefetch, WER, service management, memory optimization |
 | 🖥️ | **NVIDIA Inspector** | 9 | GPU driver-level optimizations — shader cache, power management, threaded optimization, texture filtering, CUDA |
 | 🌐 | **Network Optimization** | 35 | Nagle's algorithm, TCP tuning, DNS config, NIC adapter, timestamps, heuristics, ECN, window scaling, NetBIOS |
 | 🔒 | **Privacy & Telemetry** | 62 | 10 groups — telemetry, Cortana/Copilot/Recall, activity sync, device permissions, app data access, sensors, NVIDIA/VS/Edge/Office telemetry |
@@ -59,6 +59,7 @@ Unlike bloated "optimizer" software, VAX TWEAKER:
 VAX TWEAKER is engineered with safety as the top priority:
 
 | Feature | Description |
+
 |---------|-------------|
 | 🔄 **Automatic Backup** | Every registry change is backed up before modification — stored in `%APPDATA%\VaxTweaker` |
 | 💾 **Crash Recovery** | Backup file persisted to disk after each operation with CRC32 integrity verification |
@@ -153,8 +154,20 @@ VAX TWEAKER is proprietary software. The source code is not publicly available. 
 
 ## 📋 Changelog
 
+### v2.1.0 — Performance Parity Update
+- **New tweak**: Force Platform Clock (`useplatformtick`) — bcdedit-based, full Apply/Revert/Status with laptop compatibility warnings
+- **New tweak**: Disable Prefetch — stops Windows Prefetcher and Superfetch via registry (complements SysMain disable)
+- **New tweak**: Disable Windows Error Reporting — stops WerSvc and blocks crash report uploads
+- **New tweak**: Disable Connected User Experiences — stops dmwappushservice (DiagTrack companion)
+- **Critical fix**: Added `NetworkThrottlingIndex = 0xFFFFFFFF` to MMCSS optimization — disables the default 10 Mbit/s network throttling during multimedia playback
+- **Fix**: MMCSS description now correctly states 0% background CPU reservation (was showing 10%)
+- **Fix**: Platform Tick now included in Compatibility Engine power/thermal warnings for laptops
+- **Fix**: Service Host Split and Prefetch now properly listed in Memory & Storage group
+- Updated group definitions for Services & Background and Memory & Storage
+- **280+ total tweaks** across 12 modules
+
 ### v2.0.0 — Major Update
-- **276 total tweaks** across **12 modules** (+30 new tweaks, +3 new modules)
+- **275 total tweaks** across **12 modules** (+30 new tweaks, +3 new modules)
 - **Privacy**: 62 tweaks in 10 groups — new Extended Telemetry Controls, Sensor & Location, Third-Party Telemetry (NVIDIA, VS, Edge, Office)
 - **Privacy**: Full ConsentStore coverage — Videos, Email, Tasks, Messaging, Broad Filesystem, Motion Data
 - **Debloater**: 31 tweaks in 7 groups — new Windows Update Controls, Insider/Experiments, Compatibility & Diagnostics
