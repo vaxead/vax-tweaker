@@ -19,6 +19,8 @@ Designed for gamers, power users, and IT professionals who demand peak performan
 <br>
 <br>
 
+[📥 Download Latest Release](https://github.com/vaxead/vax-tweaker/releases) · [📋 Changelog](#changelog) · [🛡️ Safety](#safety--restore) · [❓ FAQ](#faq)
+
 </div>
 
 ---
@@ -59,7 +61,6 @@ Unlike bloated "optimizer" software, VAX TWEAKER:
 VAX TWEAKER is engineered with safety as the top priority:
 
 | Feature | Description |
-
 |---------|-------------|
 | 🔄 **Automatic Backup** | Every registry change is backed up before modification — stored in `%APPDATA%\VaxTweaker` |
 | 💾 **Crash Recovery** | Backup file persisted to disk after each operation with CRC32 integrity verification |
@@ -86,7 +87,7 @@ VAX TWEAKER is engineered with safety as the top priority:
 
 ## 🚀 Quick Start
 
-1. **Download** `VaxTweaker.exe` from [https://vaxead.gumroad.com/l/vax-tweaker]
+1. **Download** `VaxTweaker.exe` from [Releases](https://github.com/vaxead/vax-tweaker/releases)
 2. **Right-click → Run as Administrator** for full functionality
 3. **Accept the disclaimer** (shown only on first launch)
 4. **Create a System Restore Point** when prompted
