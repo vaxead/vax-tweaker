@@ -4,10 +4,11 @@
 
 ### Ultimate Windows System Optimizer
 
-[![Version](https://img.shields.io/badge/version-2.1.0-00d4aa?style=for-the-badge)](https://github.com/vaxead/vax-tweaker/releases)
+[![Version](https://img.shields.io/badge/version-2.2.0-00d4aa?style=for-the-badge)](https://github.com/vaxead/vax-tweaker/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078d4?style=for-the-badge&logo=windows)](https://github.com/vaxead/vax-tweaker)
 [![Architecture](https://img.shields.io/badge/arch-x64-333333?style=for-the-badge)](https://github.com/vaxead/vax-tweaker)
 [![License](https://img.shields.io/badge/license-Proprietary-ff4444?style=for-the-badge)](LICENSE)
+[![Languages](https://img.shields.io/badge/languages-EN%20%7C%20IT%20%7C%20ES%20%7C%20DE%20%7C%20PT-9b59b6?style=for-the-badge)](https://github.com/vaxead/vax-tweaker)
 
 **A professional-grade system optimization suite built in C++.**
 Designed for gamers, power users, and IT professionals who demand peak performance.
@@ -18,6 +19,8 @@ Designed for gamers, power users, and IT professionals who demand peak performan
 
 <br>
 <br>
+
+[📥 Download](https://vaxead.gumroad.com/l/vax-tweaker) · [📋 Changelog](#changelog) · [🛡️ Safety](#safety--restore) · [❓ FAQ](#faq)
 
 </div>
 
@@ -32,25 +35,56 @@ Unlike bloated "optimizer" software, VAX TWEAKER:
 - **Modifies only what you approve** — every tweak requires explicit confirmation
 - **Backs up everything automatically** — every change can be reverted instantly
 - **Is a single portable executable** — no installation, no dependencies
+- **Multi-language** — supports English, Italian, Spanish, German, and Portuguese
 
 ---
 
-## 📦 Modules — 280+ Tweaks
+## ✨ What's New in v2.2.0
+
+- **296 total tweaks** — 22 new optimizations across 5 modules
+- **Drift Detection** — automatically detects when Windows or other software reverts your applied tweaks
+- **Multi-Language UI** — full localization for 5 languages (EN, IT, ES, DE, PT)
+- **Multi-GPU driver support** — auto-detects and optimizes NVIDIA, AMD, and Intel GPUs at driver level
+- **Advanced Diagnostics** — disk health, services audit, event log errors, driver checker, network latency test
+- **Background scanning** — module status refresh on a background thread for instant startup
+
+---
+
+## 📦 Modules — 296 Tweaks
 
 | # | Module | Tweaks | Description |
 |---|--------|:------:|-------------|
-| ⚡ | **FPS & Rendering** | 39 | Fullscreen optimizations, GPU scheduling, visual effects, Game Bar/DVR, DWM compositor, MPO, transparency, power plans |
-| 🎮 | **Gaming Performance** | 35 | CPU priority, system timers, HPET/TSC/Platform Tick, MMCSS, network throttling, prefetch, WER, service management, memory optimization |
-| 🖥️ | **NVIDIA Inspector** | 9 | GPU driver-level optimizations — shader cache, power management, threaded optimization, texture filtering, CUDA |
-| 🌐 | **Network Optimization** | 35 | Nagle's algorithm, TCP tuning, DNS config, NIC adapter, timestamps, heuristics, ECN, window scaling, NetBIOS |
+| ⚡ | **FPS & Rendering** | 47 | Fullscreen optimizations, GPU scheduling, visual effects, Game Bar/DVR, DWM compositor, MPO, transparency, power plans, Intel/AMD/NVIDIA driver-level tweaks, PCIe ASPM, MSI Mode, coalescence timer, worker threads |
+| 🎮 | **Gaming Performance** | 44 | CPU priority, system timers, HPET/TSC/Platform Tick, MMCSS, network throttling, prefetch, WER, service management, memory optimization, I/O system tuning, startup apps control |
+| 🖥️ | **NVIDIA Inspector** | 14 | GPU driver-level optimizations — shader cache, power management, threaded optimization, texture filtering, CUDA, display power, PCIe link state, GR535, tray icon |
+| 🌐 | **Network Optimization** | 17 | Nagle's algorithm, TCP tuning, DNS config, NIC adapter, AFD socket tuning, TCP advanced parameters, QoS bandwidth limit, timestamps, heuristics, ECN |
 | 🔒 | **Privacy & Telemetry** | 62 | 10 groups — telemetry, Cortana/Copilot/Recall, activity sync, device permissions, app data access, sensors, NVIDIA/VS/Edge/Office telemetry |
 | 🛡️ | **Security Hardening** | 13 | RDP, SMBv1, admin shares, UAC, WDigest, AutoRun, PowerShell v2, Edge/Chrome/Firefox browser security policies |
-| 🧹 | **Windows Debloater** | 31 | 7 groups — taskbar UI, Start tips, UWP removal, scheduled tasks, Windows Update controls, Insider/experiments, compatibility |
+| 🧹 | **Windows Debloater** | 34 | 7 groups — taskbar UI, Start tips, UWP removal, scheduled tasks, Windows Update controls, Insider/experiments, compatibility |
 | 🧽 | **System Cleaner** | 33 | Temp files, prefetch, thumbnails, browser caches (Chrome/Edge/Firefox), Steam, NVIDIA/AMD, Office, Teams, Discord, DNS flush |
-| ⚙️ | **Service Manager** | 18 | Disable unnecessary Windows services — Xbox, Maps, Retail Demo, Contact Data, diagnostics services |
-| 📊 | **System Analysis** | — | Full hardware/software diagnostic scan — CPU, GPU, RAM, drivers, runtimes, network adapters, OS build |
+| ⚙️ | **Service Manager** | 32 | Disable unnecessary Windows services — Xbox, Maps, Retail Demo, Contact Data, diagnostics, update, telemetry, geolocation, print spooler, and more |
+| 📊 | **System Analysis** | — | Full hardware/software diagnostic scan — CPU, GPU, RAM, drivers, runtimes, disk health, power plan, event log errors, services audit |
 | 📈 | **System Monitor** | — | Real-time CPU, RAM, and disk usage monitoring with live-updating console dashboard |
 | 🎯 | **Game Profiles** | — | Save and load per-game optimization profiles — apply/revert tweak sets with one click |
+
+---
+
+## 🔍 Drift Detection
+
+VAX TWEAKER now saves a snapshot of your applied tweaks after each session. On the next launch, it compares the snapshot against the live system state and warns you if Windows updates, driver installations, or other software reverted any of your optimizations — with the exact list of drifted settings.
+
+---
+
+## 🌍 Multi-Language Support
+
+Full UI localization with string tables for:
+- 🇬🇧 **English** (default)
+- 🇮🇹 **Italiano**
+- 🇪🇸 **Español**
+- 🇩🇪 **Deutsch**
+- 🇧🇷 **Português**
+
+All menus, prompts, status messages, risk labels, and confirmation dialogs are fully translated.
 
 ---
 
@@ -65,9 +99,10 @@ VAX TWEAKER is engineered with safety as the top priority:
 | ⏪ **One-Click Restore** | Restore all changes at any time from the main menu — reverse order, atomic operations |
 | ⚠️ **Risk Classification** | Every tweak is labeled: `SAFE` · `MODERATE` · `ADVANCED` · `RISKY` |
 | ✅ **Confirmation Prompts** | Detailed warning shown before every operation — name, description, risk level, reboot notice |
-| 🖥️ **System Restore Point** | Offered at startup before any modifications — with automatic System Protection enablement |
-| 🔍 **Compatibility Engine** | Detects laptop/desktop, Modern Standby, OS build, GPU driver — warns about risky combinations |
-| 📝 **Full Logging** | Every operation is timestamped and logged — exportable crash log on fatal errors |
+| 🖥️ **System Restore Point** | Offered at startup — automatic System Protection detection and enablement before creation |
+| 🔍 **Compatibility Engine** | Detects laptop/desktop, Modern Standby, OS build, GPU vendor/driver — warns about risky combinations |
+| 📝 **Full Logging** | Every operation is timestamped and logged — session log auto-exported on exit |
+| 🔔 **Drift Detection** | Compares tweak snapshots across sessions — alerts if Windows or other software reverted your changes |
 
 ---
 
@@ -145,6 +180,8 @@ VAX TWEAKER is proprietary software. The source code is not publicly available. 
 - **Data-driven architecture** — tweaks are declared as metadata, not hardcoded logic. This makes them auditable and consistent.
 - **Automatic backup with integrity verification** — CRC32-protected backup files with atomic writes.
 - **Compatibility engine** — proactive warnings based on your actual hardware and OS.
+- **Drift detection** — knows when Windows reverts your tweaks and warns you.
+- **Multi-language** — full UI localization for 5 languages.
 - **No telemetry** — zero network calls. Ever.
 
 </details>
@@ -152,6 +189,26 @@ VAX TWEAKER is proprietary software. The source code is not publicly available. 
 ---
 
 ## 📋 Changelog
+
+### v2.2.0 — Deep Optimization Update
+- **22 new tweaks** — 296 total tweaks across 12 modules
+- **FPS & Rendering** (40 → 47): Intel GPU Optimization, Power Latency Tuning, Connected Standby Disable, GPU Scheduler Optimization, Coalescence Timer Disable, Worker Thread Optimization, DWM Advanced Compositor tweaks
+- **Gaming Performance** (38 → 44): I/O System Tuning, Disable All Startup Apps, and additional system-level optimizations
+- **NVIDIA Inspector** (9 → 14): Display Power Management, PCIe Link State Override, GR535 Driver Optimization, Tray Icon Control, additional driver-level tweaks
+- **Network Optimization** (13 → 17): AFD Socket Tuning, TCP Advanced Parameters, QoS Bandwidth Limit, additional protocol optimizations
+- **Service Manager** (18 → 32): 14 additional toggleable Windows services — expanded coverage for telemetry, update, geolocation, print spooler, and diagnostic services
+- **Debloater** (31 → 34): additional bloatware removal targets
+- **New: Drift Detection** — background system that saves tweak snapshots and detects when Windows updates or other software reverts applied settings; warning displayed on startup with the list of drifted tweaks
+- **New: Multi-Language UI** — full localization engine supporting 5 languages: English, Italiano, Español, Deutsch, Português
+- **New: Multi-GPU driver support** — FPS module auto-detects and optimizes NVIDIA, AMD, and Intel GPUs at driver level (nvlddmkm, amdkmdag, display class keys)
+- **New: PCIe ASPM disable** — powercfg-based Active State Power Management control for maximum GPU/NIC throughput
+- **New: MSI Mode** — Message Signaled Interrupts for GPU, reducing interrupt latency
+- **Restore Point refactored** — automatic System Protection detection and enablement before creation; COM-based retry logic
+- **Console improvements** — custom font setup with automatic cleanup on exit; improved UTF-8 rendering
+- **Diagnostics expanded** — disk health (SMART), services audit, recent system errors, 3rd-party driver checker, network latency test (ping), memory breakdown
+- **Background scanning** — module status refresh runs on a detached thread so the main menu appears instantly
+- **Session log auto-export** — session log automatically saved to disk on exit
+- **StartupModule removed** — startup app management consolidated into Gaming Performance module
 
 ### v2.1.0 — Performance Parity Update
 - **New tweak**: Force Platform Clock (`useplatformtick`) — bcdedit-based, full Apply/Revert/Status with laptop compatibility warnings
