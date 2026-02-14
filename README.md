@@ -8,7 +8,6 @@
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078d4?style=for-the-badge&logo=windows)](https://github.com/vaxead/vax-tweaker)
 [![Architecture](https://img.shields.io/badge/arch-x64-333333?style=for-the-badge)](https://github.com/vaxead/vax-tweaker)
 [![License](https://img.shields.io/badge/license-Proprietary-ff4444?style=for-the-badge)](LICENSE)
-[![Languages](https://img.shields.io/badge/languages-EN%20%7C%20IT%20%7C%20ES%20%7C%20DE%20%7C%20PT-9b59b6?style=for-the-badge)](https://github.com/vaxead/vax-tweaker)
 
 **A professional-grade system optimization suite built in C++.**
 Designed for gamers, power users, and IT professionals who demand peak performance.
@@ -35,7 +34,6 @@ Unlike bloated "optimizer" software, VAX TWEAKER:
 - **Modifies only what you approve** — every tweak requires explicit confirmation
 - **Backs up everything automatically** — every change can be reverted instantly
 - **Is a single portable executable** — no installation, no dependencies
-- **Multi-language** — supports English, Italian, Spanish, German, and Portuguese
 
 ---
 
@@ -43,8 +41,7 @@ Unlike bloated "optimizer" software, VAX TWEAKER:
 
 - **296 total tweaks** — 22 new optimizations across 5 modules
 - **Drift Detection** — automatically detects when Windows or other software reverts your applied tweaks
-- **Multi-Language UI** — full localization for 5 languages (EN, IT, ES, DE, PT)
-- **Multi-GPU driver support** — auto-detects and optimizes NVIDIA, AMD, and Intel GPUs at driver level
+- **Multi-GPU driver support**
 - **Advanced Diagnostics** — disk health, services audit, event log errors, driver checker, network latency test
 - **Background scanning** — module status refresh on a background thread for instant startup
 
@@ -72,19 +69,6 @@ Unlike bloated "optimizer" software, VAX TWEAKER:
 ## 🔍 Drift Detection
 
 VAX TWEAKER now saves a snapshot of your applied tweaks after each session. On the next launch, it compares the snapshot against the live system state and warns you if Windows updates, driver installations, or other software reverted any of your optimizations — with the exact list of drifted settings.
-
----
-
-## 🌍 Multi-Language Support
-
-Full UI localization with string tables for:
-- 🇬🇧 **English** (default)
-- 🇮🇹 **Italiano**
-- 🇪🇸 **Español**
-- 🇩🇪 **Deutsch**
-- 🇧🇷 **Português**
-
-All menus, prompts, status messages, risk labels, and confirmation dialogs are fully translated.
 
 ---
 
@@ -181,8 +165,7 @@ VAX TWEAKER is proprietary software. The source code is not publicly available. 
 - **Automatic backup with integrity verification** — CRC32-protected backup files with atomic writes.
 - **Compatibility engine** — proactive warnings based on your actual hardware and OS.
 - **Drift detection** — knows when Windows reverts your tweaks and warns you.
-- **Multi-language** — full UI localization for 5 languages.
-- **No telemetry** — zero network calls. Ever.
+- **No telemetry**
 
 </details>
 
@@ -199,8 +182,7 @@ VAX TWEAKER is proprietary software. The source code is not publicly available. 
 - **Service Manager** (18 → 32): 14 additional toggleable Windows services — expanded coverage for telemetry, update, geolocation, print spooler, and diagnostic services
 - **Debloater** (31 → 34): additional bloatware removal targets
 - **New: Drift Detection** — background system that saves tweak snapshots and detects when Windows updates or other software reverts applied settings; warning displayed on startup with the list of drifted tweaks
-- **New: Multi-Language UI** — full localization engine supporting 5 languages: English, Italiano, Español, Deutsch, Português
-- **New: Multi-GPU driver support** — FPS module auto-detects and optimizes NVIDIA, AMD, and Intel GPUs at driver level (nvlddmkm, amdkmdag, display class keys)
+- **New: Multi-GPU driver support**
 - **New: PCIe ASPM disable** — powercfg-based Active State Power Management control for maximum GPU/NIC throughput
 - **New: MSI Mode** — Message Signaled Interrupts for GPU, reducing interrupt latency
 - **Restore Point refactored** — automatic System Protection detection and enablement before creation; COM-based retry logic
