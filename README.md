@@ -19,7 +19,7 @@ Designed for gamers, power users, and IT professionals who demand peak performan
 <br>
 <br>
 
-[📥 Download](https://vaxead.gumroad.com/l/vax-tweaker) · [📋 Changelog](#changelog) · [🛡️ Safety](#safety--restore) · [❓ FAQ](#faq)
+[📥 Download](https://whop.com/vaxtweaker-2412/vax-tweaker/) · [📋 Changelog](#changelog) · [🛡️ Safety](#safety--restore) · [❓ FAQ](#faq)
 
 </div>
 
@@ -104,7 +104,7 @@ VAX TWEAKER is engineered with safety as the top priority:
 
 ## 🚀 Quick Start
 
-1. **Download** `VaxTweaker.exe` from [Gumroad](https://vaxead.gumroad.com/l/vax-tweaker)
+1. **Download** `VaxTweaker.exe` from [Whop](https://whop.com/vaxtweaker-2412/vax-tweaker/)
 2. **Right-click → Run as Administrator** for full functionality
 3. **Accept the disclaimer** (shown only on first launch)
 4. **Create a System Restore Point** when prompted
@@ -214,7 +214,7 @@ VAX TWEAKER is proprietary software. The source code is not publicly available. 
 - **New module**: Service Manager — 18 toggleable Windows services
 - **New module**: System Monitor — real-time CPU/RAM/Disk dashboard
 - **New module**: Game Profiles — per-game tweak presets
-- **Machine-bound licensing** — HWID + DPAPI + Gumroad uses counter (1 key = 1 device)
+- **Machine-bound licensing** — HWID + DPAPI + Whop metadata binding (1 key = 1 device)
 - All tweaks fully reversible with data-driven apply/revert/status detection
 
 ### v1.0.0 — Initial Release
