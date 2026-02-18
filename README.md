@@ -19,7 +19,7 @@ Designed for gamers, power users, and IT professionals who demand peak performan
 <br>
 <br>
 
-[📥 Download](https://whop.com/vaxtweaker-2412/vax-tweaker/) · [📋 Changelog](#changelog) · [🛡️ Safety](#safety--restore) · [❓ FAQ](#faq)
+[📥 Download](https://whop.com/vaxtweaker-2412/vax-tweaker/) · [💬 Discord](https://discord.gg/9Wu2EYPxrw) · [📋 Changelog](#changelog) · [🛡️ Safety](#safety--restore) · [❓ FAQ](#faq)
 
 </div>
 
@@ -246,6 +246,8 @@ See [LICENSE](LICENSE) for full terms.
 <div align="center">
 
 **Built with ❤️ and C++ by [Vaxead](https://github.com/vaxead)**
+
+[💬 Join our Discord](https://discord.gg/9Wu2EYPxrw)
 
 ⭐ Star this repo if you find VAX TWEAKER useful
 
