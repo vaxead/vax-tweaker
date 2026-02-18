@@ -14,7 +14,7 @@ Designed for gamers, power users, and IT professionals who demand peak performan
 
 <br>
 
-<img src="assets/preview.png?v=2.3.0" alt="VAX TWEAKER v2.3.0 Preview" width="700">
+<img src="assets/preview.png?v=2.3.0b" alt="VAX TWEAKER v2.3.0 Preview" width="700">
 
 <br>
 <br>
@@ -116,7 +116,7 @@ VAX TWEAKER is engineered with safety as the top priority:
 ## 📸 Screenshots
 
 <div align="center">
-<img src="assets/preview.png?v=2.3.0" alt="VAX TWEAKER Main Menu" width="600">
+<img src="assets/preview.png?v=2.3.0b" alt="VAX TWEAKER Main Menu" width="600">
 <br>
 <sub>Main menu — Admin mode, Windows 11 (Build 26200)</sub>
 </div>
