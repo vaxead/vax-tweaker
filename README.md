@@ -41,26 +41,27 @@ Unlike bloated "optimizer" software, VAX TWEAKER:
 
 - **Whop licensing** — migrated license verification from Gumroad to Whop API v2
 - **Simplified machine binding** — HWID stored as metadata on the Whop membership (no more uses counter)
-- **296 total tweaks** across 12 modules
+- **330 total tweaks** across 13 modules
 
 ---
 
-## 📦 Modules — 296 Tweaks
+## 📦 Modules — 330 Tweaks
 
 | # | Module | Tweaks | Description |
 |---|--------|:------:|-------------|
-| ⚡ | **FPS & Rendering** | 47 | Fullscreen optimizations, GPU scheduling, visual effects, Game Bar/DVR, DWM compositor, MPO, transparency, power plans, Intel/AMD/NVIDIA driver-level tweaks, PCIe ASPM, MSI Mode, coalescence timer, worker threads |
-| 🎮 | **Gaming Performance** | 44 | CPU priority, system timers, HPET/TSC/Platform Tick, MMCSS, network throttling, prefetch, WER, service management, memory optimization, I/O system tuning, startup apps control |
+| ⚡ | **FPS & Rendering** | 52 | Fullscreen optimizations, GPU scheduling, visual effects, Game Bar/DVR, DWM compositor, MPO, transparency, power plans, Intel/AMD/NVIDIA driver-level tweaks, PCIe ASPM, MSI Mode, coalescence timer, worker threads |
+| 🎮 | **Gaming Performance** | 54 | CPU priority, system timers, HPET/TSC/Platform Tick, MMCSS, network throttling, prefetch, WER, service management, memory optimization, I/O system tuning, startup apps control |
 | 🖥️ | **NVIDIA Inspector** | 14 | GPU driver-level optimizations — shader cache, power management, threaded optimization, texture filtering, CUDA, display power, PCIe link state, GR535, tray icon |
-| 🌐 | **Network Optimization** | 17 | Nagle's algorithm, TCP tuning, DNS config, NIC adapter, AFD socket tuning, TCP advanced parameters, QoS bandwidth limit, timestamps, heuristics, ECN |
+| 🌐 | **Network Optimization** | 23 | Nagle's algorithm, TCP tuning, DNS config, NIC adapter, AFD socket tuning, TCP advanced parameters, QoS bandwidth limit, timestamps, heuristics, ECN |
 | 🔒 | **Privacy & Telemetry** | 62 | 10 groups — telemetry, Cortana/Copilot/Recall, activity sync, device permissions, app data access, sensors, NVIDIA/VS/Edge/Office telemetry |
 | 🛡️ | **Security Hardening** | 13 | RDP, SMBv1, admin shares, UAC, WDigest, AutoRun, PowerShell v2, Edge/Chrome/Firefox browser security policies |
-| 🧹 | **Windows Debloater** | 34 | 7 groups — taskbar UI, Start tips, UWP removal, scheduled tasks, Windows Update controls, Insider/experiments, compatibility |
+| 🧹 | **Windows Debloater** | 47 | 7 groups — taskbar UI, Start tips, UWP removal, scheduled tasks, Windows Update controls, Insider/experiments, compatibility |
 | 🧽 | **System Cleaner** | 33 | Temp files, prefetch, thumbnails, browser caches (Chrome/Edge/Firefox), Steam, NVIDIA/AMD, Office, Teams, Discord, DNS flush |
 | ⚙️ | **Service Manager** | 32 | Disable unnecessary Windows services — Xbox, Maps, Retail Demo, Contact Data, diagnostics, update, telemetry, geolocation, print spooler, and more |
 | 📊 | **System Analysis** | — | Full hardware/software diagnostic scan — CPU, GPU, RAM, drivers, runtimes, disk health, power plan, event log errors, services audit |
 | 📈 | **System Monitor** | — | Real-time CPU, RAM, and disk usage monitoring with live-updating console dashboard |
 | 🎯 | **Game Profiles** | — | Save and load per-game optimization profiles — apply/revert tweak sets with one click |
+| 🚀 | **Process Booster** | — | View running processes and change their priority class (e.g., High, Above Normal) for real-time performance tuning |
 
 ---
 
@@ -171,11 +172,15 @@ VAX TWEAKER is proprietary software. The source code is not publicly available. 
 
 ## 📋 Changelog
 
-### v2.3.0 — Whop Licensing Migration
+### v2.3.0 — Expansion Update + Whop Licensing
+- **34 new tweaks** — 330 total tweaks across 13 modules
+- **FPS & Rendering** (47 → 52): 5 new driver-level and compositor tweaks
+- **Gaming Performance** (44 → 54): 10 new system-level optimizations
+- **Network Optimization** (17 → 23): 6 new protocol and adapter tweaks
+- **Windows Debloater** (34 → 47): 13 additional bloatware and telemetry removal targets
+- **New module: Process Booster** — view running processes and change priority class for performance tuning
 - **Licensing backend migrated** from Gumroad to Whop API v2
-- **New WhopApi client** — 2-step verification flow: GET membership → validate status → POST metadata for HWID binding
 - **Simplified machine binding** — HWID stored as Whop membership metadata instead of Gumroad uses counter
-- **Removed MAX_ACTIVATIONS** — machine limit now enforced server-side via metadata mismatch (HTTP 400)
 - **Updated purchase links** — download now available at [whop.com/vaxtweaker-2412/vax-tweaker](https://whop.com/vaxtweaker-2412/vax-tweaker/)
 
 ### v2.2.0 — Deep Optimization Update
