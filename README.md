@@ -4,7 +4,7 @@
 
 ### Ultimate Windows System Optimizer
 
-[![Version](https://img.shields.io/badge/version-2.2.0-00d4aa?style=for-the-badge)](https://github.com/vaxead/vax-tweaker/releases)
+[![Version](https://img.shields.io/badge/version-2.3.0-00d4aa?style=for-the-badge)](https://github.com/vaxead/vax-tweaker/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078d4?style=for-the-badge&logo=windows)](https://github.com/vaxead/vax-tweaker)
 [![Architecture](https://img.shields.io/badge/arch-x64-333333?style=for-the-badge)](https://github.com/vaxead/vax-tweaker)
 [![License](https://img.shields.io/badge/license-Proprietary-ff4444?style=for-the-badge)](LICENSE)
@@ -14,7 +14,7 @@ Designed for gamers, power users, and IT professionals who demand peak performan
 
 <br>
 
-<img src="assets/preview.png?v=2.2.0" alt="VAX TWEAKER v2.2.0 Preview" width="700">
+<img src="assets/preview.png?v=2.3.0" alt="VAX TWEAKER v2.3.0 Preview" width="700">
 
 <br>
 <br>
@@ -37,13 +37,11 @@ Unlike bloated "optimizer" software, VAX TWEAKER:
 
 ---
 
-## ✨ What's New in v2.2.0
+## ✨ What's New in v2.3.0
 
-- **296 total tweaks** — 22 new optimizations across 5 modules
-- **Drift Detection** — automatically detects when Windows or other software reverts your applied tweaks
-- **Multi-GPU driver support**
-- **Advanced Diagnostics** — disk health, services audit, event log errors, driver checker, network latency test
-- **Background scanning** — module status refresh on a background thread for instant startup
+- **Whop licensing** — migrated license verification from Gumroad to Whop API v2
+- **Simplified machine binding** — HWID stored as metadata on the Whop membership (no more uses counter)
+- **296 total tweaks** across 12 modules
 
 ---
 
@@ -117,7 +115,7 @@ VAX TWEAKER is engineered with safety as the top priority:
 ## 📸 Screenshots
 
 <div align="center">
-<img src="assets/preview.png?v=2.2.0" alt="VAX TWEAKER Main Menu" width="600">
+<img src="assets/preview.png?v=2.3.0" alt="VAX TWEAKER Main Menu" width="600">
 <br>
 <sub>Main menu — Admin mode, Windows 11 (Build 26200)</sub>
 </div>
@@ -172,6 +170,13 @@ VAX TWEAKER is proprietary software. The source code is not publicly available. 
 ---
 
 ## 📋 Changelog
+
+### v2.3.0 — Whop Licensing Migration
+- **Licensing backend migrated** from Gumroad to Whop API v2
+- **New WhopApi client** — 2-step verification flow: GET membership → validate status → POST metadata for HWID binding
+- **Simplified machine binding** — HWID stored as Whop membership metadata instead of Gumroad uses counter
+- **Removed MAX_ACTIVATIONS** — machine limit now enforced server-side via metadata mismatch (HTTP 400)
+- **Updated purchase links** — download now available at [whop.com/vaxtweaker-2412/vax-tweaker](https://whop.com/vaxtweaker-2412/vax-tweaker/)
 
 ### v2.2.0 — Deep Optimization Update
 - **22 new tweaks** — 296 total tweaks across 12 modules
