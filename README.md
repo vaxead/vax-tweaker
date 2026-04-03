@@ -18,7 +18,7 @@
 <br>
 <br>
 
-[💎 Get Premium](https://vaxtweaker.com/) · [🆓 Free Edition](https://github.com/vaxead/vax-tweaker-free) · [💬 Discord](https://discord.gg/nutygmhS8N) · [📋 Changelog](#changelog) · [🛡️ Safety](#safety--restore) · [❓ FAQ](#faq)
+[💎 Get Premium](https://vaxtweaker.com/) · [🆓 Free Edition](https://github.com/vaxead/vax-tweaker-free) · [💬 Discord](https://discord.com/invite/UsJRm6shZw) · [📋 Changelog](#changelog) · [🛡️ Safety](#safety--restore) · [❓ FAQ](#faq)
 
 </div>
 
